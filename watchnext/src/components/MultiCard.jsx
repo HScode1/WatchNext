@@ -1,6 +1,10 @@
 import { CardDeck, Card } from 'react-bootstrap';
 import { Icon } from '@iconify/react';
 import CardGroup from 'react-bootstrap/CardGroup';
+import React from 'react';
+import './MultiCard.css'
+
+
 
 
 const card = [
@@ -16,9 +20,10 @@ const card = [
 
 function MutliCard() {
   return (
-    <CardGroup  style={{margin: "200px"  }}>
+    <CardGroup style={{margin : '200px', marginTop: "800px"}}>
      {card.map(card => (
-            <Card style={{ width: '18rem' }}>
+            <Card
+            style={{ width: '18rem' }}>
                 <Card.Body>
                     <div className="d-flex justify-content-center">
                         <Icon style={{ fontSize: '48px' }} icon={card.icon} />
@@ -33,5 +38,6 @@ function MutliCard() {
     </CardGroup>
   );
 }
+
 
 export default MutliCard;

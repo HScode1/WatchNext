@@ -1,0 +1,9 @@
+
+.hovered {
+  background-color: #f5f5f5;
+  box-shadow: 2px 2px 10px #ccc;
+}
+
+.card{
+    margin-bottom: 20px;
+}

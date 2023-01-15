@@ -7,6 +7,8 @@ import StoreCard from './components/StoreCard';
 import CardGroup from 'react-bootstrap/CardGroup';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
+
 
 
 
@@ -14,14 +16,14 @@ import Contact from './components/Contact';
 function App() {
   return (
     <>
-    {/* <section>
+    <section>
       <NavBar/>
       <Hero/>
     </section>
     <section>
-      <h1 style={{ fontFamily: 'Playfair Display',fontStyle: 'normal',fontWeight: '700',fontSize: '25px',lineHeight: '35px',letterSpacing: '0.1px',color: '#252B42'}}>BestSeller Product</h1>
-      < StoreCard/>
-    </section> */}
+        <h1 style={{marginTop: '80px', fontFamily: 'Playfair Display',fontStyle: 'normal',fontWeight: '700',fontSize: '25px',lineHeight: '35px',letterSpacing: '0.1px',color: '#252B42'}}>BestSeller Product</h1>
+        < StoreCard/>
+    </section>
     <Contact/>
     </>
     
